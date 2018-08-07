@@ -1,0 +1,19 @@
+POST http://ai.ecarx.com.cn/cloud_service/v1/client_res/res_update?appkey=clientres2a4fb6g2e816&time=1531810377906&updateResType=1,2,3,4,5&clientModel=sfds&prodBatch=sdfds&clientVersion=2 HTTP/1.1
+sign: e729e0f423f5835fe81eb0917b3f8811
+Content-Type: application/json; charset=utf-8
+Content-Length: 146
+Host: ai.ecarx.com.cn
+Connection: Keep-Alive
+Accept-Encoding: gzip
+User-Agent: okhttp/3.9.1
+
+[{"resType":1,"resVersion":1},{"resType":2,"resVersion":1},{"resType":3,"resVersion":1},{"resType":4,"resVersion":1},{"resType":5,"resVersion":1}]
+
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=UTF-8
+Date: Tue, 17 Jul 2018 06:52:59 GMT
+Keep-Alive: timeout=38
+Server: nginx/1.14.0
+Content-Length: 237
+
+{"code":0,"msg":"succ","data":[{"resType":1,"needUpdate":false,"version":1,"md5":"3a37312509712d4e12d27240137ff377","downloadUrl":"http://ai.ecarx.com.cn/client_res/statics/JinYuLong/201806151415543a37312509712d4e12d27240137ff377.res"},{"resType":1,"needUpdate":false,"version":1,"md5":"3a37312509712d4e12d27240137ff377","downloadUrl":"http://ai.ecarx.com.cn/client_res/statics/JinYuLong/201806151415543a37312509712d4e12d27240137ff377.res"}]}
