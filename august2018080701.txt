@@ -1,0 +1,20 @@
+07-31 10:48:13.891 1525-1833/ecarx.voiceservice D/PlatformService: onNLPResult{"mode":"除霜","operation":"CLOSE","focus":"airControl","rawText":"关闭除霜功能。"}
+07-31 10:48:13.891 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <VuiEngine:> ====== =====> onNLPResult:{"mode":"除霜","operation":"CLOSE","focus":"airControl","rawText":"关闭除霜功能。"}
+07-31 10:48:13.891 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <ACScene:> ====== handlerScene >>  rawText : 关闭除霜功能。 | device :  name :  mode : 除霜 operation : CLOSE
+07-31 10:48:13.891 1525-1833/ecarx.voiceservice I/HvacImpl: isHavcAvailable result: false, Availability: NotActive
+07-31 10:48:13.891 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <SceneMng:> ====== handlerScene Error . ID : 4 actJson : {"mode":"除霜","operation":"CLOSE","focus":"airControl","rawText":"关闭除霜功能。"}
+
+
+07-31 10:48:23.381 1525-1833/ecarx.voiceservice D/PlatformService: onNLPResult{"mode":"除霜","operation":"SET","focus":"airControl","rawText":"开启除霜"}
+07-31 10:48:23.381 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <VuiEngine:> ====== =====> onNLPResult:{"mode":"除霜","operation":"SET","focus":"airControl","rawText":"开启除霜"}
+07-31 10:48:23.381 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <ACScene:> ====== handlerScene >>  rawText : 开启除霜 | device :  name :  mode : 除霜 operation : SET
+07-31 10:48:23.381 1525-1833/ecarx.voiceservice I/HvacImpl: isHavcAvailable result: false, Availability: NotActive
+07-31 10:48:23.381 1525-1833/ecarx.voiceservice D/XCVoiceService_V9999: <SceneMng:> ====== handlerScene Error . ID : 4 actJson : {"mode":"除霜","operation":"SET","focus":"airControl","rawText":"开启除霜"}
+
+
+07-31 10:48:32.221 1525-1575/ecarx.voiceservice D/PlatformService: onNLPResult{"mode":"除霜","operation":"SET","focus":"airControl","rawText":"把除霜功能打开"}
+07-31 10:48:32.221 1525-1575/ecarx.voiceservice D/XCVoiceService_V9999: <VuiEngine:> ====== =====> onNLPResult:{"mode":"除霜","operation":"SET","focus":"airControl","rawText":"把除霜功能打开"}
+07-31 10:48:32.221 1525-1575/ecarx.voiceservice D/XCVoiceService_V9999: <ACScene:> ====== handlerScene >>  rawText : 把除霜功能打开 | device :  name :  mode : 除霜 operation : SET
+07-31 10:48:32.231 1525-1575/ecarx.voiceservice I/HvacImpl: isHavcAvailable result: false, Availability: NotActive
+07-31 10:48:32.231 1525-1575/ecarx.voiceservice D/XCVoiceService_V9999: <SceneMng:> ====== handlerScene Error . ID : 4 actJson : {"mode":"除霜","operation":"SET","focus":"airControl","rawText":"把除霜功能打开"}
+07-31 10:48:32.241 1525-1833/ecarx.voiceservice I/XCVoiceService_V9999: <AdaptPolicyHelper:> ====== changeWorkMode change to mode : 3 : VOICE_WAKEUP ret : 0
